@@ -95,7 +95,6 @@ public class MapBuilder : MonoBehaviour
             {
                 _selectedTilePrefab.transform.position = _worldCellPosition; // Перемещаем тайл в ячейку
                 _occupiedCells.AddToDictionary(_worldCellPosition, true);   // Отмечаем ячейку как занятую
-               // _selectedTilePrefab.transform.localScale = _originalTileScale; // Возвращаем изначальный размер тайла
                 SetColor(_colorDefault);                      // Устанавливаем цвет по умолчанию
                 _selectedTilePrefab = null;                   // Сбрасываем выбранный тайл
                 
